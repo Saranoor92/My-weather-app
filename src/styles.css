@@ -1,0 +1,42 @@
+body {
+  background-image: url("/desktop/index/src/images/wow.jpg");
+  background-size: 70%;
+}
+
+.container {
+  margin: 20px auto;
+  background-image: url("/desktop/index/src/images/background.jpg");
+  height: 800px;
+  width: 800px;
+  padding: 50px;
+  display: block;
+}
+
+.input {
+  font-family: "Playfair Display", serif;
+  font-family: "Ysabeau", sans-serif;
+}
+
+.col-week {
+  display: inline-block;
+  padding: 20px;
+  border: solid rgb(164, 204, 241) 1px;
+  border-radius: 10px;
+}
+
+.weather-icons {
+  display: block;
+  margin: 10px auto;
+  width: 40px;
+}
+
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+.week {
+  text-align: center;
+  margin: 5px;
+}
