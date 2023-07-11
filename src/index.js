@@ -48,7 +48,6 @@ function showTemp(response) {
   let iconElement = document.querySelector("#icon");
   celsiusTemperature = response.data.main.temp;
 
-  temperatureElement.innerHTML = Math.round(celsiusTemperature);
   descriptionElement.innerHTML = response.data.weather[0].description;
   humidityElement.innerHTML = response.data.main.humidity;
   windElement.innerHTML = Math.round(response.data.wind.speed);
@@ -58,7 +57,6 @@ function showTemp(response) {
   );
   iconElement.setAttribute("alt", response.data.weather[0].description);
 }
-
 function currentTemp(position) {
   let latitude = position.coords.latitude;
   let longitude = position.coords.longitude;

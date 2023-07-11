@@ -1,11 +1,11 @@
 body {
-  background-image: url("Saranoor92/my-weather-app/src/images/wow.jpg");
+  background-image: url("wow.jpg");
   background-size: 70%;
 }
 
 .container {
   margin: 20px auto;
-  background-image: url("Saranoor92/my-weather-app/src/images/background.jpg");
+  background-image: url("background.jpg");
   height: 800px;
   width: 800px;
   padding: 50px;
