@@ -26,6 +26,7 @@
                 class="form-control"
                 id="input"
                 placeholder="Enter your city"
+                autocomplete="off"
               />
             </div>
             <div class="col-3">
@@ -33,26 +34,38 @@
             </div>
           </div>
       </div>
-
-        <div class="col-3 text-center">
-          <button type="button" class="btn btn-primary" id="currentTemp">Current</button>
-          <h1 class="temperature" id="temperature">72ºF</h1>
-        </div>
-      </div>
+      
+            <div class="col-3 text-center">
+                  <button type="button" class="btn btn-primary" id="currentTemp">Current</button>
+               
+                    <h1 id="temperature">
+                    
+                    <span class="units"
+                    ><a href="#" id="celsius-link" class="active">°C</a> |
+                    <a href="#" id="fahrenheit-link">°F</a></span
+                  >
+                  </h1>
+            </div>
+          
       <div class="row">
         <div class="col text-center">
-          <h1 class="city" id="current-city">Detroit</h1>
+          <h1 class="city" id="current-city"></h1>
         </div>
       </div>
       <div class="row">
         <div class="col weather-info">
           <h2 id="currentDay">
-            4:43 PM <br />
-            Saturday May 27 <br />
+            <br />
+           <br />
           </h2>
         </div>
       </div>
-
+      <h2>
+      <img src="" id="icon"  ></h2>
+      <div class="description">
+      <h2 id="humidity">Humidity: </span>%</h2>
+      <h2 id="wind">Wind: </span> km/h</h2>
+      </div>
       <div class="row">
         <div class="col week">
           <strong>Sat</strong
