@@ -22,19 +22,21 @@ hours = hours ? hours : 12;
 currentDate.innerHTML =
   day + " " + hours + ":" + (minutes < 10 ? "0" : "") + minutes + " " + ampm;
 
-function search(event) {
-  event.preventDefault();
-  let city = document.querySelector("#city");
-  let input = document.querySelector("#input");
-  input.innerHTML = input.value;
+function search(city) {
   let apiKey = "8004fe7e5956b5d355e869332710800f";
-  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${input.value}&appid=${apiKey}&units=metric`;
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
   axios.get(`${apiUrl}`).then(showTemp);
 }
 
+function handleSubmit(event) {
+  event.preventDefault();
+  let input = document.querySelector("#input");
+  search(input.value);
+}
+
 let searchForm = document.querySelector("#search-form");
-searchForm.addEventListener("submit", search);
+searchForm.addEventListener("submit", handleSubmit);
 
 function showTemp(response) {
   let temp = Math.round(response.data.main.temp);

@@ -1,12 +1,11 @@
 body {
-  background-image: url("wow.jpg");
+  background-image: url("images/wow.jpg");
   background-size: 70%;
 }
 
 .container {
   margin: 20px auto;
-  background-image: url("background.jpg");
-  height: 800px;
+  background-image: url("images/background.jpg");
   width: 800px;
   padding: 50px;
   display: block;
