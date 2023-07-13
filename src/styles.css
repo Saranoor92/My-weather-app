@@ -4,10 +4,12 @@ body {
 }
 
 .container {
-  margin: 20px auto;
+  margin: 0 auto;
   background-image: url("images/background.jpg");
+  background-size: auto;
   width: 800px;
-  padding: 200px;
+  padding: 20px;
+  padding-bottom: auto;
   display: block;
 }
 
@@ -74,4 +76,15 @@ li:first-letter {
 
 .weather-forecast-temperature-min {
   opacity: 0.5;
+}
+
+.weather-app-wrapper {
+  max-width: 600px;
+  height: 500px;
+  margin: 30px auto;
+}
+.weather-app {
+  padding: 20px;
+  border: 1px solid #bbc6e3;
+  border-radius: 30px;
 }
