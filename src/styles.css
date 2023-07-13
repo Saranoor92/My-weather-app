@@ -7,7 +7,7 @@ body {
   margin: 20px auto;
   background-image: url("images/background.jpg");
   width: 800px;
-  padding: 50px;
+  padding: 200px;
   display: block;
 }
 
@@ -21,10 +21,6 @@ h1 {
 }
 h2 {
   text-align: center;
-}
-.week {
-  text-align: center;
-  margin: 5px;
 }
 
 .weather-temperature .units {
