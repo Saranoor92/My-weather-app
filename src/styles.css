@@ -61,12 +61,15 @@ li:first-letter {
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
-  color: #000;
 }
 
 .weather-forecast-date {
-  font-size: 16px;
-  opacity: 0.5;
+  color: #000;
+}
+
+.weather-forecast #description {
+  color: #333;
+  font-size: 14px;
 }
 
 .weather-forecast-temperatures {
