@@ -45,8 +45,7 @@ function displayForecast(response) {
         <img
           src="http://openweathermap.org/img/wn/${
             forecastDay.weather[0].icon
-          }@2x.png"
-          alt=""
+          }@2x.png";
           width="52"
         />
         <div class="weather-forecast-temperatures">
@@ -75,7 +74,6 @@ function getForecast(coordinates) {
 function search(city) {
   let apiKey = "f5e814a04eddfab1740f07bf0328eee2";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
-
   axios.get(`${apiUrl}`).then(showTemp);
 }
 

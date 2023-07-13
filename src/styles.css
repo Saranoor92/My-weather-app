@@ -92,3 +92,15 @@ li:first-letter {
   border: 1px solid #bbc6e3;
   border-radius: 30px;
 }
+
+#submit-button {
+  background-color: #ebccba;
+  color: #000;
+  border: none;
+}
+
+#currentTemp {
+  background-color: #ebccba;
+  color: #000;
+  border: none;
+}
