@@ -1,4 +1,3 @@
-// current date and time
 let now = new Date();
 let currentDate = document.querySelector("#currentDay");
 

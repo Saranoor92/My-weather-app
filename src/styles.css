@@ -1,12 +1,11 @@
 body {
   background-image: url("images/wow.jpg");
-  background-size: 70%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .container {
   margin: 0 auto;
-  background-image: url("images/background.jpg");
-  background-size: auto;
   width: 800px;
   padding: 20px;
   padding-bottom: auto;
@@ -84,6 +83,8 @@ li:first-letter {
   margin: 30px auto;
 }
 .weather-app {
+  background-image: url("images/background.jpg");
+  background-size: cover;
   padding: 20px;
   border: 1px solid #bbc6e3;
   border-radius: 30px;
